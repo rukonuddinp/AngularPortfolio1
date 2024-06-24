@@ -1,0 +1,79 @@
+.experience {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .experience .job {
+    margin-bottom: 20px;
+  }
+  
+  .experience h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .experience h4 {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .experience p {
+    font-size: 1em;
+    color: #777;
+  }
+  
+  .experience ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .experience li {
+    font-size: 1em;
+    color: #333;
+  }
+  .career{
+    background: linear-gradient(to right, #435160, #e3e5e9);
+    color: white;
+    padding: 5px 5px; /* Optional padding for content */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #3f4041;
+    color: white;
+  }
+  
+  tbody tr.row-0 {
+    background-color: #f2f2f2; /* Light grey */
+  }
+  
+  tbody tr.row-1 {
+    background-color: #e6e6ff; /* Light blue */
+  }
+  
+  tbody tr.row-2 {
+    background-color: #ffe6e6; /* Light red */
+  }
+  
+  td ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    margin: 0;
+  }
+  
+  td ul li {
+    margin-bottom: 5px;
+  }
+ 
+  

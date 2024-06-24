@@ -1,0 +1,26 @@
+<h2 class="career">Work Experience</h2>
+
+<div class="experience">
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Company</th>
+        <th>Duration</th>
+        <th>Responsibilities</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let experience of experiences">
+        <td>{{ experience.title }}</td>
+        <td>{{ experience.company }}</td>
+        <td>{{ experience.duration }}</td>
+        <td>
+          <ul>
+            <li *ngFor="let responsibility of experience.responsibilities">{{ responsibility }}</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
